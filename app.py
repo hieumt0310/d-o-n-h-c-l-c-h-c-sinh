@@ -49,9 +49,9 @@ st.subheader(" Kết quả dự đoán:")
 if prediction[0] == 2:
     st.success("Học sinh có học lực **Giỏi** ⭐")
 elif prediction[0] == 1:
-    st.info("📘 Học sinh có học lực **Khá**")
+    st.info(" Học sinh có học lực **Khá**")
 else:
     st.warning(" Học sinh có học lực **Trung bình** hoặc yếu")
 
 st.divider()
-st.caption("🚀 Ứng dụng được tạo bằng Streamlit – chạy tốt trên cả máy tính và điện thoại.")
+st.caption(" Ứng dụng được tạo bằng Streamlit – chạy tốt trên cả máy tính và điện thoại.")
